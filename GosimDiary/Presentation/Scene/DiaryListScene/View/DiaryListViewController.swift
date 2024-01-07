@@ -1,14 +1,14 @@
 //
-//  ViewController.swift
+//  DiaryListViewController.swift
 //  GosimDiary
 //
-//  Created by 안상희 on 1/6/24.
+//  Created by 안상희 on 1/7/24.
 //
 
 import UIKit
 
-class ViewController: UIViewController {
-
+final class DiaryListViewController: UIViewController {
+  
   override func viewDidLoad() {
     super.viewDidLoad()
     

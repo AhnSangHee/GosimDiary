@@ -9,19 +9,31 @@
 /* Begin PBXBuildFile section */
 		5C0F8E142B496D7600ECC2F8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C0F8E132B496D7600ECC2F8 /* AppDelegate.swift */; };
 		5C0F8E162B496D7600ECC2F8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C0F8E152B496D7600ECC2F8 /* SceneDelegate.swift */; };
-		5C0F8E182B496D7600ECC2F8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C0F8E172B496D7600ECC2F8 /* ViewController.swift */; };
 		5C0F8E1D2B496D7700ECC2F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C0F8E1C2B496D7700ECC2F8 /* Assets.xcassets */; };
 		5C0F8E202B496D7700ECC2F8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C0F8E1E2B496D7700ECC2F8 /* LaunchScreen.storyboard */; };
+		5C6D0D152B49B2B70074B5F5 /* DiaryListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C6D0D142B49B2B70074B5F5 /* DiaryListViewModel.swift */; };
+		5C6D0D172B49B2CA0074B5F5 /* DiaryListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C6D0D162B49B2CA0074B5F5 /* DiaryListViewController.swift */; };
+		5C6D0D192B49B2F70074B5F5 /* DiaryFlowCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C6D0D182B49B2F70074B5F5 /* DiaryFlowCoordinator.swift */; };
+		5C6D0D1C2B49B3240074B5F5 /* DiaryListUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C6D0D1B2B49B3240074B5F5 /* DiaryListUseCase.swift */; };
+		5C6D0D1E2B49B3330074B5F5 /* DiaryListRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C6D0D1D2B49B3330074B5F5 /* DiaryListRepository.swift */; };
+		5C6D0D202B49B3890074B5F5 /* DiaryListRepositoryImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C6D0D1F2B49B3890074B5F5 /* DiaryListRepositoryImpl.swift */; };
+		5C6D0D222B49B5860074B5F5 /* Diary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C6D0D212B49B5860074B5F5 /* Diary.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		5C0F8E102B496D7600ECC2F8 /* GosimDiary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GosimDiary.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C0F8E132B496D7600ECC2F8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5C0F8E152B496D7600ECC2F8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		5C0F8E172B496D7600ECC2F8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		5C0F8E1C2B496D7700ECC2F8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5C0F8E1F2B496D7700ECC2F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5C0F8E212B496D7700ECC2F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5C6D0D142B49B2B70074B5F5 /* DiaryListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiaryListViewModel.swift; sourceTree = "<group>"; };
+		5C6D0D162B49B2CA0074B5F5 /* DiaryListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiaryListViewController.swift; sourceTree = "<group>"; };
+		5C6D0D182B49B2F70074B5F5 /* DiaryFlowCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiaryFlowCoordinator.swift; sourceTree = "<group>"; };
+		5C6D0D1B2B49B3240074B5F5 /* DiaryListUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiaryListUseCase.swift; sourceTree = "<group>"; };
+		5C6D0D1D2B49B3330074B5F5 /* DiaryListRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiaryListRepository.swift; sourceTree = "<group>"; };
+		5C6D0D1F2B49B3890074B5F5 /* DiaryListRepositoryImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiaryListRepositoryImpl.swift; sourceTree = "<group>"; };
+		5C6D0D212B49B5860074B5F5 /* Diary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Diary.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +66,140 @@
 		5C0F8E122B496D7600ECC2F8 /* GosimDiary */ = {
 			isa = PBXGroup;
 			children = (
-				5C0F8E132B496D7600ECC2F8 /* AppDelegate.swift */,
-				5C0F8E152B496D7600ECC2F8 /* SceneDelegate.swift */,
-				5C0F8E172B496D7600ECC2F8 /* ViewController.swift */,
-				5C0F8E1C2B496D7700ECC2F8 /* Assets.xcassets */,
-				5C0F8E1E2B496D7700ECC2F8 /* LaunchScreen.storyboard */,
-				5C0F8E212B496D7700ECC2F8 /* Info.plist */,
+				5C6D0D0D2B49B1750074B5F5 /* Application */,
+				5C0F8E292B49797D00ECC2F8 /* Data */,
+				5C0F8E272B49797000ECC2F8 /* Domain */,
+				5C0F8E282B49797600ECC2F8 /* Presentation */,
+				5C6D0D0E2B49B19B0074B5F5 /* Resources */,
 			);
 			path = GosimDiary;
+			sourceTree = "<group>";
+		};
+		5C0F8E272B49797000ECC2F8 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				5C0F8E2C2B49A88200ECC2F8 /* Interfaces */,
+				5C0F8E2B2B49A87D00ECC2F8 /* UseCases */,
+				5C0F8E2A2B49A87700ECC2F8 /* Entities */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		5C0F8E282B49797600ECC2F8 /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				5C6D0D092B49AA3F0074B5F5 /* Flows */,
+				5C0F8E2D2B49A88900ECC2F8 /* Scene */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		5C0F8E292B49797D00ECC2F8 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				5C6D0D0B2B49AE640074B5F5 /* Repositories */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		5C0F8E2A2B49A87700ECC2F8 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				5C6D0D212B49B5860074B5F5 /* Diary.swift */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		5C0F8E2B2B49A87D00ECC2F8 /* UseCases */ = {
+			isa = PBXGroup;
+			children = (
+				5C6D0D1B2B49B3240074B5F5 /* DiaryListUseCase.swift */,
+			);
+			path = UseCases;
+			sourceTree = "<group>";
+		};
+		5C0F8E2C2B49A88200ECC2F8 /* Interfaces */ = {
+			isa = PBXGroup;
+			children = (
+				5C6D0D0A2B49AA670074B5F5 /* Repositories */,
+			);
+			path = Interfaces;
+			sourceTree = "<group>";
+		};
+		5C0F8E2D2B49A88900ECC2F8 /* Scene */ = {
+			isa = PBXGroup;
+			children = (
+				5C6D0D112B49B26F0074B5F5 /* DiaryListScene */,
+			);
+			path = Scene;
+			sourceTree = "<group>";
+		};
+		5C6D0D092B49AA3F0074B5F5 /* Flows */ = {
+			isa = PBXGroup;
+			children = (
+				5C6D0D182B49B2F70074B5F5 /* DiaryFlowCoordinator.swift */,
+			);
+			path = Flows;
+			sourceTree = "<group>";
+		};
+		5C6D0D0A2B49AA670074B5F5 /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+				5C6D0D1D2B49B3330074B5F5 /* DiaryListRepository.swift */,
+			);
+			path = Repositories;
+			sourceTree = "<group>";
+		};
+		5C6D0D0B2B49AE640074B5F5 /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+				5C6D0D1F2B49B3890074B5F5 /* DiaryListRepositoryImpl.swift */,
+			);
+			path = Repositories;
+			sourceTree = "<group>";
+		};
+		5C6D0D0D2B49B1750074B5F5 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				5C0F8E132B496D7600ECC2F8 /* AppDelegate.swift */,
+				5C0F8E152B496D7600ECC2F8 /* SceneDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		5C6D0D0E2B49B19B0074B5F5 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5C0F8E1C2B496D7700ECC2F8 /* Assets.xcassets */,
+				5C0F8E212B496D7700ECC2F8 /* Info.plist */,
+				5C0F8E1E2B496D7700ECC2F8 /* LaunchScreen.storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		5C6D0D112B49B26F0074B5F5 /* DiaryListScene */ = {
+			isa = PBXGroup;
+			children = (
+				5C6D0D132B49B2920074B5F5 /* ViewModel */,
+				5C6D0D122B49B28E0074B5F5 /* View */,
+			);
+			path = DiaryListScene;
+			sourceTree = "<group>";
+		};
+		5C6D0D122B49B28E0074B5F5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5C6D0D162B49B2CA0074B5F5 /* DiaryListViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5C6D0D132B49B2920074B5F5 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				5C6D0D142B49B2B70074B5F5 /* DiaryListViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -134,8 +272,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5C0F8E182B496D7600ECC2F8 /* ViewController.swift in Sources */,
+				5C6D0D152B49B2B70074B5F5 /* DiaryListViewModel.swift in Sources */,
+				5C6D0D222B49B5860074B5F5 /* Diary.swift in Sources */,
+				5C6D0D1E2B49B3330074B5F5 /* DiaryListRepository.swift in Sources */,
+				5C6D0D202B49B3890074B5F5 /* DiaryListRepositoryImpl.swift in Sources */,
+				5C6D0D1C2B49B3240074B5F5 /* DiaryListUseCase.swift in Sources */,
 				5C0F8E142B496D7600ECC2F8 /* AppDelegate.swift in Sources */,
+				5C6D0D172B49B2CA0074B5F5 /* DiaryListViewController.swift in Sources */,
+				5C6D0D192B49B2F70074B5F5 /* DiaryFlowCoordinator.swift in Sources */,
 				5C0F8E162B496D7600ECC2F8 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -282,7 +426,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = P9G6PC5FMA;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = GosimDiary/Info.plist;
+				INFOPLIST_FILE = GosimDiary/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -310,7 +454,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = P9G6PC5FMA;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = GosimDiary/Info.plist;
+				INFOPLIST_FILE = GosimDiary/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
